@@ -1,0 +1,73 @@
+{
+  "business": {
+    "name": "Sunrise Dental Clinic",
+    "tagline": "Gentle, modern dental care for the whole family.",
+    "location": "2nd Floor, MG Road, Kochi, Kerala 682011",
+    "landmark": "Above Sunrise Pharmacy, opposite the Metro station.",
+    "phone": "+91 484 555 0100",
+    "email": "care@sunrisedental.example",
+    "parking": "Free two-wheeler parking; paid car parking available in the basement."
+  },
+  "faqs": [
+    {
+      "id": "hours",
+      "question": "What are your working hours / when are you open?",
+      "keywords": ["hours", "open", "timing", "time", "close", "closing", "when", "working"],
+      "answer": "We are open Monday to Saturday from 9 AM to 8 PM. On Sundays we are open from 9 AM to 1 PM for emergencies only."
+    },
+    {
+      "id": "location",
+      "question": "Where are you located / what is your address?",
+      "keywords": ["where", "location", "address", "reach", "directions", "place"],
+      "answer": "We are on the 2nd floor of the MG Road building in Kochi, right above Sunrise Pharmacy and opposite the Metro station."
+    },
+    {
+      "id": "services",
+      "question": "What services or treatments do you offer?",
+      "keywords": ["services", "treatment", "offer", "do you do", "procedures"],
+      "answer": "We offer routine check-ups and cleaning, fillings, root canal treatment, teeth whitening, braces and aligners, dental implants, and kids' dentistry."
+    },
+    {
+      "id": "pricing",
+      "question": "How much does a consultation or cleaning cost?",
+      "keywords": ["cost", "price", "fee", "charge", "how much", "rate", "consultation", "cleaning"],
+      "answer": "A first consultation is 300 rupees, and it is free if you go ahead with treatment the same day. A standard scaling and cleaning is 1500 rupees."
+    },
+    {
+      "id": "doctors",
+      "question": "Which doctors are available?",
+      "keywords": ["doctor", "dentist", "specialist", "who", "available"],
+      "answer": "Dr. Anjali Menon leads general and cosmetic dentistry, and Dr. Rahul Nair is our root canal and implant specialist."
+    },
+    {
+      "id": "insurance",
+      "question": "Do you accept insurance?",
+      "keywords": ["insurance", "cashless", "claim", "covered", "mediclaim"],
+      "answer": "Yes, we accept most major health insurance plans and offer cashless treatment with our partner insurers. Bring your insurance card for verification."
+    },
+    {
+      "id": "emergency",
+      "question": "Do you handle dental emergencies?",
+      "keywords": ["emergency", "urgent", "pain", "toothache", "broken", "bleeding"],
+      "answer": "Yes. For severe pain, bleeding or a broken tooth, call us right away and we will give you a same-day emergency slot."
+    },
+    {
+      "id": "appointment_info",
+      "question": "How do I book an appointment?",
+      "keywords": ["appointment", "book", "booking", "schedule", "slot", "visit"],
+      "answer": "You can book right now on this call. I just need your name, the treatment you want, and a preferred day and time."
+    },
+    {
+      "id": "payment",
+      "question": "What payment methods do you accept?",
+      "keywords": ["payment", "pay", "upi", "card", "cash", "gpay"],
+      "answer": "We accept cash, all major cards, UPI including Google Pay and PhonePe, and cashless insurance."
+    },
+    {
+      "id": "languages",
+      "question": "What languages do your staff speak?",
+      "keywords": ["language", "malayalam", "english", "hindi", "speak"],
+      "answer": "Our staff speak Malayalam, English and Hindi, so you are welcome to talk in whichever you are most comfortable with."
+    }
+  ]
+}

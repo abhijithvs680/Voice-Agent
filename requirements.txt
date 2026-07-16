@@ -1,0 +1,14 @@
+# Voice Agent — pinned Pipecat release (API verified against v0.0.99).
+pipecat-ai[google,silero,twilio,websocket]==0.0.99
+
+# Web server / telephony webhook
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+
+# Twilio REST client (used to place the outbound call)
+twilio==9.4.1
+
+# Config & logging
+python-dotenv==1.0.1
+pydantic-settings==2.7.1
+loguru==0.7.3

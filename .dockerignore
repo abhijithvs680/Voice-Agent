@@ -1,0 +1,25 @@
+# Secrets & envs
+.env
+*.env
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Git & tooling
+.git/
+.gitignore
+.idea/
+.vscode/
+
+# Docs not needed at runtime
+*.md
+!knowledge/*.md
+
+# OS
+.DS_Store
+*.log

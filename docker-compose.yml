@@ -1,0 +1,27 @@
+services:
+  voice-agent:
+    build: .
+    container_name: ai-voice-agent
+    ports:
+      - "8888:8888"
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      # Ensure the container always binds to the expected host/port,
+      # even if these are omitted from .env.
+      HOST: "0.0.0.0"
+      PORT: "8888"
+    restart: unless-stopped
+
+  ngrok:
+    image: ngrok/ngrok:latest
+    container_name: ai-voice-agent-ngrok
+    command: http voice-agent:8888
+    environment:
+      NGROK_AUTHTOKEN: ${NGROK_AUTHTOKEN}
+    ports:
+      - "4040:4040"
+    depends_on:
+      - voice-agent
+    restart: unless-stopped
